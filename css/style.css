@@ -169,7 +169,6 @@ body {
   line-height: 1.7;
   font-family: "Lato", sans-serif;
 }
-
 body.fixed-background {
   position: fixed;
   top: 0;
@@ -590,132 +589,6 @@ a {
   padding-bottom: 10px;
 }
 
-.header-view-all-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 100px;
-  margin-bottom: 60px;
-}
-.header-view-all-wrapper .section-heading {
-  margin-bottom: 0px;
-}
-
-.block-frame {
-  background-color: #004E98;
-}
-.block-frame .container {
-  position: relative;
-}
-.block-frame .container .vector-image {
-  filter: brightness(0) invert(1);
-  position: absolute;
-  pointer-events: none;
-}
-.block-frame .container .top-left {
-  top: 50px;
-  left: 20px;
-  height: 50px;
-}
-.block-frame .container .top-right {
-  top: 50px;
-  right: 20px;
-}
-.block-frame .container .bottom-right {
-  bottom: 50px;
-  right: 20px;
-  height: 50px;
-}
-.block-frame .container .bottom-left {
-  bottom: 50px;
-  left: 20px;
-}
-.block-frame .text-document-content p,
-.block-frame .text-document-content span,
-.block-frame .text-document-content li,
-.block-frame .text-document-content div {
-  color: white;
-  text-align: center;
-}
-.block-frame .custom-button a {
-  background-color: white !important;
-  color: #004E98 !important;
-  border: 1px solid white;
-  margin: 0px auto !important;
-}
-.block-frame .custom-button a:hover {
-  color: white !important;
-}
-
-.learn-more-card-frame figure {
-  height: 300px;
-  background: #004E98;
-}
-.learn-more-card-frame figure img {
-  transition: all 500ms linear;
-}
-.learn-more-card-frame .description {
-  border-radius: 5px;
-  background: #fff;
-  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
-  padding: 20px;
-  width: 85%;
-  margin: -50px auto 0px auto;
-  position: relative;
-  z-index: 2;
-}
-.learn-more-card-frame .description .tittle {
-  color: #6D6D6D;
-  font-family: Barlow;
-  font-size: 20px;
-  font-weight: 600;
-  text-transform: capitalize;
-  margin-bottom: 10px !important;
-}
-.learn-more-card-frame .description .tittle:hover {
-  color: #004E98;
-}
-.learn-more-card-frame .description p {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  margin-bottom: 10px !important;
-}
-.learn-more-card-frame .description .read-more {
-  color: #004E98 !important;
-  font-family: Barlow;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: 0.7px;
-  text-transform: uppercase;
-}
-.learn-more-card-frame .description .read-more:hover {
-  color: #EF4A4A !important;
-}
-.learn-more-card-frame:hover figure img {
-  opacity: 0.5;
-}
-
-.video-wrapper {
-  position: relative;
-  height: 100%;
-}
-.video-wrapper .video-play-button {
-  padding: 5px 15px;
-  border-radius: 4px;
-  background: #EF4A4A;
-  color: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 14px;
-  cursor: pointer;
-}
-
 .d-grid-1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -741,6 +614,11 @@ figure.eprabidhitheme-decor::before {
   background-color: #004E98;
   height: 90%;
   width: 90%;
+}
+@media (max-width: 991px) {
+  figure.eprabidhitheme-decor::before {
+    display: none;
+  }
 }
 
 .form-element input,
@@ -886,17 +764,6 @@ figure.eprabidhitheme-decor::before {
   color: #EF4A4A !important;
 }
 
-@media (max-width: 991px) {
-  header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: white;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-    z-index: 999999;
-  }
-}
 header .top-nav {
   background: rgb(255, 255, 255);
   background: linear-gradient(90deg, #ffffff 10%, #004E98 13%);
@@ -1025,10 +892,6 @@ header .main-navigation-bar nav .main-logo img {
   width: 100%;
   height: 100%;
 }
-header .main-navigation-bar nav .navigation-item-wrapper.open {
-  right: 0;
-  display: block;
-}
 header .main-navigation-bar nav .navigation-item-wrapper {
   padding: 30px 0px;
 }
@@ -1045,7 +908,15 @@ header .main-navigation-bar nav .navigation-item-wrapper {
     height: 100vh;
     z-index: 999;
     display: none;
+    opacity: 0;
+    visibility: hidden;
     box-shadow: 0px -2px 3px gray;
+  }
+  header .main-navigation-bar nav .navigation-item-wrapper.open {
+    right: 0;
+    opacity: 1;
+    visibility: visible;
+    display: block;
   }
 }
 header .main-navigation-bar nav .navigation-item-wrapper .navbar-nav {

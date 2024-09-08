@@ -54,11 +54,11 @@
                             <span>Affiliated with Rajarshi Janak University(RJU)</span>
                         </div>
                     </div>
-                    <button class=" openbtn d-lg-none d-block " data-side-nav-target="#myside-nav">
+                    <button class=" openbtn d-lg-none d-block ms-5" data-side-nav-target="#myside-nav">
                         <i class="fa-solid fa-bars"></i>
                     </button>
                     <div class="navigation-item-wrapper" id="myside-nav">
-                        <button class="ms-auto mb-3 d-block btn btn-danger d-lg-none closebtn" data-side-nav-target="#myside-nav">Close</button>
+                        <button class="ms-auto mb-3 d-block btn btn-danger d-lg-none closebtn" data-side-nav-target="#myside-nav"><i class="fa-solid fa-xmark"></i></button>
                         <ul class="navbar-nav">
                             <li class="nav-item ">
                                 <a class="nav-link active" href="index.php">Home</a>

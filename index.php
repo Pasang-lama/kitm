@@ -5,15 +5,6 @@
         <figure>
             <img src="images/img-1.jpg" alt="">
         </figure>
-        <figure>
-            <img src="images/img-3.jpg" alt="">
-        </figure>
-        <figure>
-            <img src="images/img-4.jpg" alt="">
-        </figure>
-        <figure>
-            <img src="images/img-9.jpg" alt="">
-        </figure>
     </div>
     <div class="hero-banner-content">
         <div class="container">
@@ -38,12 +29,12 @@
 <section class="custom-margin about-us">
     <div class="container">
         <div class="row gy-4">
-            <div class="col-lg-6 col-md-12 pe-5">
+            <div class="col-lg-6 col-md-12 pe-5 order-2 order-lg-1">
                 <figure>
                     <img src="images/computing.png" alt="">
                 </figure>
             </div>
-            <div class="col-lg-6 col-md-12">
+            <div class="col-lg-6 col-md-12 order-1 order-lg-2">
                 <div class="section-heading align-left">
                     <span>Kantipure Institute of Techmology and Management</span>
                     <h1 class="main-title">A college driven by a software company that provides professional training and in-house internship opportunities for students.
