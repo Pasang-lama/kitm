@@ -42,16 +42,9 @@
     </div>
     <div class="copy-right-section">
         <div class="container">
-            <div class="wrapper">
-                <p>© 2024, Kantipure Institute of Information and Technology. All Rights Reserved. Crafted by: <a href="">E-prabidhi</a>
+                <p class="text-center">© 2024, Kantipure Institute of Information and Technology. All Rights Reserved. Crafted by: <a href="">E-prabidhi</a>
                 </p>
-                <div class="privacy-policy">
-                    <ul>
-                        <li><a href="page.php">Policies and Procedure</a></li>
-                        <li><a href="page.php">Student Code of Conduct</a></li>
-                    </ul>
-                </div>
-            </div>
+               
         </div>
     </div>
 </footer>

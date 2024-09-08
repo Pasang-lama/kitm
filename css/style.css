@@ -103,13 +103,11 @@
   width: fit-content;
   padding: 10px 30px;
   text-align: center;
-  position: relative;
   z-index: 2;
   border: 2px solid #004E98;
   background-color: #004E98;
   border-radius: 3px;
   overflow: hidden;
-  transition: all 0.3s ease-in-out 0s;
   position: relative;
 }
 .custom-button a::before,
@@ -1162,40 +1160,15 @@ footer .copy-right-section {
   padding: 15px 0px;
   margin-top: 40px;
 }
-footer .copy-right-section .wrapper {
-  display: flex;
-  gap: 50px;
-  justify-content: space-between;
-}
-footer .copy-right-section .wrapper p {
-  width: -moz-fit-content;
-  width: fit-content;
+footer .copy-right-section p {
   color: #fff;
+  text-align: center;
 }
-footer .copy-right-section .wrapper p a {
+footer .copy-right-section p a {
   color: #fff !important;
   text-transform: uppercase;
 }
-footer .copy-right-section .wrapper p a:hover {
-  color: #EF4A4A !important;
-}
-footer .copy-right-section .wrapper .privacy-policy ul {
-  display: block;
-}
-footer .copy-right-section .wrapper .privacy-policy ul li {
-  border-right: 1px solid white;
-  padding-right: 20px;
-  margin-right: 20px;
-}
-footer .copy-right-section .wrapper .privacy-policy ul li:last-child {
-  margin-right: 0;
-  padding-right: 0;
-  border-right: none;
-}
-footer .copy-right-section .wrapper .privacy-policy ul li a {
-  color: white !important;
-}
-footer .copy-right-section .wrapper .privacy-policy ul li a:hover {
+footer .copy-right-section p a:hover {
   color: #EF4A4A !important;
 }
 
