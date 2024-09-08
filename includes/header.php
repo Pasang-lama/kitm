@@ -34,9 +34,9 @@
                             <li><i class="fa-solid fa-envelope"></i><span class="wrapper"><a href="">info@kantiputeinstitute.com</a></span></li>
                         </ul>
                     </div>
-                    <div class="result-button">
-                        <a href="">Apply Now</a>
-                    </div>
+                    <button type="button" class="result-button" data-bs-toggle="modal" data-bs-target="#applynowform">
+                        Apply Now
+                    </button>
                 </div>
             </div>
         </div>
@@ -97,3 +97,51 @@
             </div>
         </div>
     </header>
+
+
+    <!-- header applynow form  -->
+
+
+    <div class="modal fade" id="applynowform" tabindex="-1" aria-labelledby="applynowformLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+
+                <form class="contact-us-message-form form-element" action="">
+                    <div class="d-flex justify-content-between heading align-items-center">
+                        <div >Apply with us</div>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="form-wrapper">
+                        <div class="form-group">
+                            <label for="name">Full Name*</label>
+                            <input type="text" name="name" id="name" placeholder="Enter a full name.">
+                        </div>
+                        <div class="form-group">
+                            <label for="number">Phone Number*</label>
+                            <input type="text" name="number" id="number" placeholder="Enter a phone number.">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address*</label>
+                            <input type="text" name="email" id="email" placeholder="Enter a email address.">
+                        </div>
+                        <div class="form-group">
+                            <label for="program">Phone Number*</label>
+                            <select name="program" id="program">
+                                <option value="0" selected disabled>Select a program</option>
+                                <option value="Bcs.CSIT">BSc. Computer Science and Information Technology (BSc.CSIT)</option>
+                                <option value="BCA">Bachelor of Computer Application (BCA)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message*</label>
+                            <textarea name="message" id="message" placeholder="Enter a message." cols="30" rows="4"></textarea>
+                        </div>
+                        <div class="custom-button">
+                            <button class="secondary-btn">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>

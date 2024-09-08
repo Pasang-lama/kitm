@@ -84,7 +84,7 @@
       @include flex-center;
       gap: 20px;
       .custom-button {
-        a {
+        button {
           background-color: white !important;
           color: $secondary-color !important;
           border: 1px solid white;

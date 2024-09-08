@@ -83,7 +83,7 @@
                         </figure>
                         <div class="card-details">
                             <h3 class="title">BSc Computer Science and Information Technology</h3>
-                            <p>BSc.CSIT -  Rajarshi Janak University(RJU)</p>
+                            <p>BSc.CSIT - Rajarshi Janak University(RJU)</p>
                         </div>
                     </a>
                     <a href="" class="program-card">
@@ -158,7 +158,9 @@
             </div>
             <div class="button-wrapper  mt-5">
                 <div class="custom-button">
-                    <a href="admission-requirement.php">Get Admission</a>
+                    <button type="button" class="result-button" data-bs-toggle="modal" data-bs-target="#applynowform">
+                        Get Admissions
+                    </button>
                 </div>
                 <div class="custom-button virtual-tour-button">
                     <a class="popup-youtube" href="https://www.youtube.com/watch?v=WTk7EsJ60Vk">Virtual Tour</a>
