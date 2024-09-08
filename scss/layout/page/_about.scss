@@ -1,0 +1,19 @@
+.about-us {
+  position: relative;
+  .side-decor {
+    display: block;
+    position: absolute;
+    top: -50px;
+    left: 50px;
+    opacity: 0.5;
+    pointer-events: none;
+  }
+}
+.message-from-principle{
+  background-color: $secondary-color;
+  .text-document-content {
+    p, li, span, a{
+      color: rgb(214, 214, 214);
+    }
+  }
+}

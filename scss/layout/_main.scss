@@ -1,0 +1,372 @@
+.banner {
+  height: calc(100vh - 180px);
+  position: relative;
+  @media (max-width: 1440px) {
+    height: 100vh;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: $secondary-color;
+    opacity: 0.7;
+  }
+  .banner-slider {
+    figure {
+      height: calc(100vh - 180px);
+      border-radius: 0 !important;
+      @media (max-width: 1440px) {
+        height: 100vh;
+      }
+    }
+  }
+  .hero-banner-content {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 50%;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    .text-document-content {
+      p {
+        color: white;
+      }
+    }
+    .custom-button {
+      a {
+        background-color: white;
+        color: $secondary-color !important;
+        border: 1px solid white;
+      }
+    }
+  }
+}
+
+.Facilities {
+  .facility-card {
+    figure {
+      position: relative;
+      overflow: hidden;
+      margin: 10px 1% !important;
+      height: 360px;
+      background: $secondary-color;
+      text-align: center;
+      img {
+        position: relative;
+        display: block;
+        min-height: 100%;
+        max-width: 100%;
+        opacity: 0.8;
+        transition: opacity 0.35s, transform 0.35s;
+        transform: scale(1.12);
+      }
+      figcaption {
+        padding: 2em;
+        color: white;
+        text-transform: uppercase;
+        font-size: 1.25em;
+        backface-visibility: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 3em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        &::before {
+          content: "";
+          pointer-events: none;
+          position: absolute;
+          top: 30px;
+          right: 30px;
+          bottom: 30px;
+          left: 30px;
+          border: 1px dotted #fff;
+          transform: scale(1.1);
+          opacity: 0;
+          transition: opacity 0.35s, transform 0.35s;
+        }
+        &::after {
+          pointer-events: none;
+        }
+        > a {
+          opacity: 0;
+          transition: opacity 0.35s, transform 0.35s;
+          margin: 0 auto;
+          transform: scale(1.5);
+          height: 40px;
+          width: 40px;
+          @include flex-center;
+          border-radius: 50%;
+          background-color: $secondary-color;
+          &:hover {
+            background-color: $primary-color;
+          }
+        }
+      }
+      .tittle {
+        color: #fff;
+        font-family: Barlow;
+        font-size: 20px;
+        font-weight: 600;
+        opacity: 0;
+        transition: opacity 0.35s, transform 0.35s;
+        margin: 0 auto;
+        transform: scale(1.5);
+        text-align: center;
+      }
+      &:hover {
+        img {
+          opacity: 0.5;
+          transform: scale(1);
+        }
+        figcaption {
+          &::before {
+            opacity: 1;
+            transform: scale(1);
+          }
+        }
+        .tittle {
+          opacity: 1;
+          transform: scale(1);
+        }
+        a {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+    }
+  }
+  .slick-dots {
+    margin-top: 20px !important;
+    @include flex-center;
+    gap: 10px;
+    li {
+      height: 10px;
+      width: 15px;
+      border-radius: 15px;
+      background: $secondary-color;
+      transition: all 400ms linear;
+      button {
+        display: none;
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+      a {
+        &::before {
+          content: "0";
+        }
+      }
+    }
+    .slick-active {
+      width: 44px;
+    }
+  }
+}
+.video-section {
+  @include background-property;
+  background-attachment: fixed;
+  position: relative;
+  &::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: $secondary-color;
+    opacity: 0.4;
+    z-index: 1;
+  }
+  .video-wrapper {
+    position: relative;
+    z-index: 2;
+
+    .text-document-content {
+      p,
+      li,
+      a,
+      span,
+      div {
+        color: white;
+        text-align: center;
+      }
+    }
+    .button-wrapper {
+      @include flex-center;
+      gap: 20px;
+      .custom-button {
+        a {
+          background-color: white !important;
+          color: $secondary-color !important;
+          border: 1px solid white;
+          &:hover{
+            color: white !important;
+          }
+        }
+      }
+      .virtual-tour-button {
+        a {
+          background-color: transparent !important;
+          color: white !important;
+        }
+      }
+    }
+  }
+}
+
+.hiring-high-dedicated-developer {
+  align-items: end;
+  justify-items: end
+}
+
+.contact-info {
+  color: white;
+  gap: 1px;
+  position: relative;
+
+  i {
+    font-size: 36px;
+  }
+
+  .contact-items {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: $secondary-color;
+
+    &:last-child {
+      padding-left: 70px !important;
+    }
+
+    &:first-child {
+      padding-right: 70px !important;
+    }
+
+    @media(max-width: 991px) {
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+
+      &:last-child {
+        padding-left: 20px !important;
+        padding-top: 50px;
+      }
+
+      &:first-child {
+        padding-right: 20px !important;
+        padding-bottom: 50px;
+      }
+    }
+
+    .details {
+      display: flex;
+      flex-direction: column;
+
+      p {
+        color: white;
+        font-weight: 500;
+
+        a {
+          font-weight: 600;
+          text-decoration: underline !important;
+          color: white !important;
+        }
+      }
+    }
+  }
+
+  &::after {
+    content: "OR";
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    height: 45px;
+    width: 45px;
+    background-color: #29A9E3;
+    color: color;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+
+.organizational-partners {
+  .partners-card {
+    border-radius: 5px;
+    border-bottom: 2px solid $secondary-color;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+    background: #fff;
+    padding: 10px;
+    figure {
+      height: 80px;
+      img {
+        object-fit: scale-down !important ;
+      }
+    }
+  }
+}
+.news-letter-suscribe-form {
+  @include flex-center;
+  gap: 20px;
+  .form-control {
+    width: 50%;
+  }
+  button {
+    background-color: $primary-color;
+    color: white;
+    border: 1px solid $primary-color;
+    font-family: Barlow;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    padding: 7px 20px;
+    border-radius: 3px;
+  }
+}
+
+.initial-popup {
+  @media (max-width: 767px) {
+    padding-right: 5px !important ;
+  }
+  .modal-dialog {
+    justify-content: center !important;
+    .modal-content {
+      width: max-content !important;
+      min-height: 100%;
+      .modal-header {
+        font-weight: 700;
+        font-size: 18px;
+        border-bottom: none !important;
+        .btn-close {
+          background: $primary-color;
+          color: white;
+          opacity: 1;
+          padding: 3px 7px 9px 7px;
+          background-image: none !important;
+        }
+      }
+      .modal-body {
+        width: fit-content !important;
+        padding: 0 !important;
+      }
+    }
+  }
+}

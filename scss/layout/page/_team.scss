@@ -1,0 +1,26 @@
+.team-member {
+  figure {
+    height: 250px;
+    border-radius: 5px;
+  }
+  .team-details {
+    margin-top: 10px;
+    .name {
+      color: #3F3F3F;
+      text-align: center;
+      font-family: Barlow;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: capitalize;
+    }
+    .post {
+      color: $secondary-color;
+      text-align: center;
+      font-family: Barlow;
+      font-size: 16px;
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+  }
+}

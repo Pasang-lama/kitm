@@ -1,0 +1,280 @@
+header {
+  .top-nav {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, #ffffff 10%, $secondary-color 13%);
+    color: white;
+    padding: 10px 0;
+    position: relative;
+
+    .top-header-wrapper {
+      margin-left: 250px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .contact-details {
+        ul {
+          display: flex;
+          gap: 20px;
+
+          li {
+            padding-right: 10px;
+            color: #fff;
+            font-family: "El Messiri", sans-serif;
+            font-size: 16px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+
+            .wrapper {
+              display: flex;
+              gap: 5px;
+
+              a {
+                &:hover {
+                  color: $primary-color !important;
+                }
+              }
+            }
+
+            &:last-child {
+              padding: 0;
+            }
+          }
+        }
+      }
+
+      .result-button {
+        background-color: $primary-color;
+        color: #fff;
+        font-family: "El Messiri", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 5px 10px 2px;
+        border-radius: 3px;
+        animation: 0.4s attentionSeeker ease infinite alternate;
+      }
+    }
+  }
+
+  .main-navigation-bar {
+    background: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+
+    nav {
+      .main-logo {
+        background-color: white;
+        z-index: 1;
+        position: absolute;
+        top: 0;
+
+        figure {
+          height: 130px;
+          aspect-ratio: 1;
+          padding: 5px 0px;
+
+          img {
+            object-fit: contain !important;
+          }
+        }
+
+        &:before {
+          content: " ";
+          position: absolute;
+          top: 0px;
+          right: -60px;
+          bottom: 0;
+          width: 100%;
+          height: 100%;
+          background-color: #fff;
+          transform: skewX(40deg);
+          z-index: -1;
+        }
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .navigation-item-wrapper {
+        margin-left: 250px;
+        padding: 20px 0px;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        align-items: center;
+
+        .navbar-nav {
+          flex-direction: row;
+          gap: 30px;
+          justify-content: end;
+
+          .nav-item {
+            color: #4d4d55;
+
+            .nav-link {
+              font-family: "El Messiri", sans-serif;
+              padding: 0 !important;
+              font-size: 16px;
+              font-weight: 700;
+              &:hover {
+                color: $primary-color !important;
+              }
+            }
+
+            .nav-link.active {
+              color: $primary-color !important;
+            }
+
+            .dropdown-menu {
+              border-radius: 4px;
+              border-top: 5px solid $secondary-color;
+              background: #fff;
+              box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+              padding: 10px 0px !important;
+              inset: 8px auto auto 0px !important;
+
+              &::before {
+                content: "";
+                position: absolute;
+                top: -12px;
+                left: 10px;
+                height: 10px;
+                width: 20px;
+                clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+                background-color: $secondary-color;
+              }
+
+              li {
+                display: block;
+                padding: 1px 0px !important;
+
+                .dropdown-item {
+                  color: #3f3f3f;
+                  font-family: "El Messiri", sans-serif;
+                  font-size: 16px;
+                  font-weight: 500;
+                }
+
+                &:hover {
+                  background-color: $secondary-color !important;
+                  color: white;
+
+                  .dropdown-item {
+                    background-color: transparent !important;
+                  }
+                }
+              }
+            }
+          }
+
+          .nav-item.active {
+            color: $secondary-color !important;
+          }
+        }
+      }
+
+      .search-btn {
+        background-color: $secondary-color;
+        padding: 10px 15px;
+        border: 0;
+        color: white;
+        position: relative;
+
+        &::before {
+          content: "";
+          position: absolute;
+          left: -10px;
+          top: 0px;
+          height: 100%;
+          width: 11px;
+          border-right: 20px;
+          background-color: #d9d9d9;
+          clip-path: polygon(100% 0, 100% 0%, 100% 100%, 0% 100%);
+        }
+      }
+    }
+  }
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999999;
+  background: $secondary-color;
+  opacity: 0.8;
+
+  .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 50px;
+    cursor: pointer;
+    color: white !important;
+  }
+
+  .overlay-content {
+    position: relative;
+    top: 46%;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+
+    form {
+      display: flex;
+
+      input[type="text"] {
+        padding: 15px;
+        font-size: 17px;
+        border: none;
+        float: left;
+        width: 90%;
+        background: white;
+
+        &:focus-visible {
+          border: 0 !important;
+          outline: 0px solid red;
+        }
+
+        &:hover {
+          background: #f1f1f1;
+        }
+      }
+
+      button {
+        width: 10%;
+        padding: 15px;
+        background: #ddd;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+        border: none;
+        color: white !important;
+        background: $primary-color;
+      }
+    }
+  }
+}
+
+.overlay.open {
+  display: block;
+}
+
+@keyframes attentionSeeker {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 1px 2px rgba(223, 46, 46, 0.15);
+  }
+
+  100% {
+    transform: scale(1.1);
+    box-shadow: 0 4px 20px rgba(226, 17, 17, 0.1);
+  }
+}

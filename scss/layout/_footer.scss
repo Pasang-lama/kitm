@@ -1,0 +1,132 @@
+footer {
+  background: $secondary-color;
+  padding-top: 40px;
+
+  .contact-details {
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      li {
+        padding-right: 10px;
+        color: #3f3f3f;
+        font-family: Barlow;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-transform: capitalize;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+        .wrapper {
+          display: flex;
+          gap: 5px;
+
+          a {
+            &:hover {
+              color: $primary-color !important;
+            }
+          }
+        }
+
+        &:last-child {
+          padding: 0;
+        }
+      }
+    }
+  }
+
+  .column-heading {
+    color: white;
+    font-family: "El Messiri", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+    @media (max-width:767px) {
+      font-size: 18px;
+    }
+  }
+
+  ul {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+
+    li {
+      color: white !important;
+      i{
+        background-color: white;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        display: flex !important;
+        color: $secondary-color;
+        justify-content: center;
+        align-items: center;
+      }
+      a {
+        font-size: 16px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        &:hover {
+          color: $primary-color !important;
+        }
+      }
+    }
+  }
+
+  .copy-right-section {
+    border-top: 1px solid white;
+    padding: 15px 0px;
+    margin-top: 40px;
+    .wrapper {
+      display: flex;
+      gap: 50px;
+      justify-content: space-between;
+
+      p {
+        width: fit-content;
+        color: #fff;
+
+        a {
+          color: #fff !important;
+          text-transform: uppercase;
+
+          &:hover {
+            color: $primary-color !important;
+          }
+        }
+      }
+
+      .privacy-policy {
+        ul {
+          display: block;
+
+          li {
+            border-right: 1px solid white;
+            padding-right: 20px;
+            margin-right: 20px;
+
+        
+            &:last-child {
+              margin-right: 0;
+              padding-right: 0;
+              border-right: none;
+            }
+
+            a {
+              color: white !important;
+
+              &:hover {
+                color: $primary-color !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
