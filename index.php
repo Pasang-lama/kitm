@@ -19,7 +19,7 @@
         <div class="container">
             <div class="section-heading align-left white-color">
                 <span>Rajarshi Janak University(RJU)</span>
-                <div class="main-title">Earn While You Learn</div>
+                <div class="main-title">Earn While You Learn change by aman</div>
             </div>
             <div class="text-document-content">
                 <p>Lorem ipsum dolor sit amet consectetur. Ornare leo rhoncus massa at nibh nisl interdum. Massa
