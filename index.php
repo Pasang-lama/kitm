@@ -19,7 +19,7 @@
         <div class="container">
             <div class="section-heading align-left white-color">
                 <span>Rajarshi Janak University(RJU)</span>
-                <div class="main-title">Earn While You Learn change by aman</div>
+                <div class="main-title">Earn While You Learn change</div>
             </div>
             <div class="text-document-content">
                 <p>Lorem ipsum dolor sit amet consectetur. Ornare leo rhoncus massa at nibh nisl interdum. Massa
@@ -242,7 +242,7 @@
     </div>
 </section>
 <!-- popup module  -->
-
+<!-- 
 <div class="modal fade initial-popup" id="popupModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -259,6 +259,6 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <?php include("includes/footer.php"); ?>

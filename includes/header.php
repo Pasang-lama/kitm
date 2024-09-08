@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kantipure Institute Of Techmology and Management</title>
+    <title>Kantipure Institute Of Technology and Management</title>
     <!-- custome css  -->
     <link rel="stylesheet" href="css/style.css">
     <!-- fontawesome css  -->
@@ -43,14 +43,22 @@
         <div class="main-navigation-bar">
             <div class="container">
                 <nav>
-                    <div class="main-logo">
+                    <div class="main-logo d-flex align-items-center">
                         <figure>
                             <a class="navbar-brand" href="index.php">
                                 <img src="images/new-logo.jpg">
                             </a>
                         </figure>
+                        <div class="content d-none d-lg-none d-md-block d-sm-block">
+                            <h1>Kantipure Institute Of Technology and Management</h1>
+                            <span>Affiliated with Rajarshi Janak University(RJU)</span>
+                        </div>
                     </div>
-                    <div class="navigation-item-wrapper">
+                    <button class=" openbtn d-lg-none d-block " data-side-nav-target="#myside-nav">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="navigation-item-wrapper" id="myside-nav">
+                        <button class="ms-auto mb-3 d-block btn btn-danger d-lg-none closebtn" data-side-nav-target="#myside-nav">Close</button>
                         <ul class="navbar-nav">
                             <li class="nav-item ">
                                 <a class="nav-link active" href="index.php">Home</a>
@@ -84,21 +92,8 @@
                                 <a class="nav-link" href="contact-us.php">Contact us</a>
                             </li>
                         </ul>
-                        <button class="search-btn openbtn" data-side-nav-target="#mySearchOverlay">
-                            <i class="fa-solid fa-magnifying-glass "></i>
-                        </button>
                     </div>
                 </nav>
             </div>
         </div>
     </header>
-    <!-- search-bar -->
-    <div id="mySearchOverlay" class="overlay">
-        <a class="closebtn" data-side-nav-target="#mySearchOverlay"><i class="fa-solid fa-xmark"></i></a>
-        <div class="overlay-content">
-            <form action="#">
-                <input type="text" placeholder="Search.." name="search">
-                <button class="sesarch-btn" type="submit"><i class="fa fa-search"></i></button>
-            </form>
-        </div>
-    </div>

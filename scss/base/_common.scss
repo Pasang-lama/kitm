@@ -12,13 +12,24 @@ body {
   font-size: 16px;
   line-height: 1.7;
   font-family: "Lato", sans-serif;
+
 }
 body.fixed-background {
   position: fixed;
   top: 0;
   width: 100%;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    opacity: 0.6;
+    z-index: 9;
+  }
 }
-
 h1,
 h2,
 h3,
@@ -66,17 +77,24 @@ p {
   }
 }
 .custom-padding {
-  padding: 110px 0px;
+  padding: 100px 0px;
+  @media (max-width: 991px) {
+    padding: 60px 0px;
+  }
 }
 .center-width {
   max-width: 80%;
   margin: 0 auto;
-  p {
-    text-align: center;
-  }
   @media (max-width: 991px) {
     max-width: 90%;
   }
+  @media (max-width: 767px) {
+    max-width: 100%;
+  }
+  p {
+    text-align: center;
+  }
+
 }
 
 figure {
@@ -135,6 +153,9 @@ a {
     &::after {
       right: -110px;
     }
+    @media (max-width: 767px) {
+      font-size: 12px;
+    }
   }
   .main-title {
     color: $secondary-color;
@@ -143,6 +164,14 @@ a {
     line-height: 43px;
     text-align: center;
     margin-top: 5px !important;
+    @media (max-width: 991px) {
+      font-size: 30px;
+      line-height: 36px;
+    }
+    @media (max-width: 767px) {
+      font-size: 24px;
+      line-height: 32px;
+    }
   }
 }
 .section-heading.align-left {
