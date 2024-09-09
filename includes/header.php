@@ -11,7 +11,7 @@
     <!-- fontawesome css  -->
     <link rel="stylesheet" href="css/all.min.css">
     <!-- favicon  -->
-    <link rel="shortcut icon" href="images/fevicon.jpeg" type="image/x-icon">
+    <link rel="shortcut icon" href="images/new-logo.jpg" type="image/x-icon">
     <!-- bootstrap css  -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- magnific-popup css  -->
