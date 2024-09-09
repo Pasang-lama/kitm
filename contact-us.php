@@ -27,7 +27,7 @@
                                 <div class="icon-box"><i class="fa-solid fa-location-dot"></i></div>
                                 <div class="details">
                                     <div class="tittle">Location </div>
-                                    <span>Putalisadak, Kathmandu</span>
+                                    <span>Putalisadak-28 (Kamaladi Mod), Kathmandu</span>
                                 </div>
                             </div>
                         </li>
@@ -36,7 +36,7 @@
                                 <div class="icon-box"><i class="fa-solid fa-envelope"></i></div>
                                 <div class="details">
                                     <div class="tittle">Email Address </div>
-                                    <span><a href="mailto:info@kitm.com">info@kitm.com</a></span>
+                                    <span><a href="mailto:kantipurinstituteoftechnologya@gmail.com">kantipurinstituteoftechnologya@gmail.com</a></span>
                                 </div>
                             </div>
                         </li>
@@ -45,7 +45,10 @@
                                 <div class="icon-box"><i class="fa-solid fa-phone"></i></div>
                                 <div class="details">
                                     <div class="tittle">Phone </div>
-                                    <span> <a href="tel:+9745948260">9745948260</a></span>
+                                    <span>
+                                    <a href="tel:976-3690075">976-3690075</a>, 
+                                    <a href="tel:9849839763">9849839763</a>
+                                    </span>
                                 </div>
                             </div>
                         </li>

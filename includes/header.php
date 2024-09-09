@@ -14,12 +14,8 @@
     <link rel="shortcut icon" href="images/fevicon.jpeg" type="image/x-icon">
     <!-- bootstrap css  -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <!-- fancy-box  -->
-    <link rel="stylesheet" href="css/fancybox.css" />
     <!-- magnific-popup css  -->
     <link rel="stylesheet" href="css/magnific-popup.css" />
-    <!-- jquery timeline plugin css  -->
-    <link rel="stylesheet" href="css/horizontal_timeline.2.0.min.css" />
 </head>
 
 <body>
@@ -29,14 +25,15 @@
                 <div class="top-header-wrapper">
                     <div class="contact-details">
                         <ul>
-                            <li><i class="fa-solid fa-location-dot"></i> <span class="wrapper">Putalisadak, Kamaladi Road</span></li>
-                            <li><i class="fa-solid fa-phone"></i><span class="wrapper"><a href="">+977-123456789</a></span></li>
-                            <li><i class="fa-solid fa-envelope"></i><span class="wrapper"><a href="">info@kantiputeinstitute.com</a></span></li>
+                            <li><i class="fa-solid fa-location-dot"></i> <span class="wrapper">Putalisadak-28 (Kamaladi Mod), Kathmandu</span></li>
+                            <li><i class="fa-solid fa-phone"></i><span class="wrapper">
+                            <a href="tel:976-3690075">976-3690075</a>, 
+                            <a href="tel:9849839763">9849839763</a>
+                                   </span></li>
+                            <li><i class="fa-solid fa-envelope"></i><span class="wrapper"><a href="mailto:kantipurinstituteoftechnologya@gmail.com">kantipurinstituteoftechnologya@gmail.com</a></span></li>
                         </ul>
                     </div>
-                    <button type="button" class="result-button" data-bs-toggle="modal" data-bs-target="#applynowform">
-                        Apply Now
-                    </button>
+
                 </div>
             </div>
         </div>
@@ -49,12 +46,12 @@
                                 <img src="images/new-logo.jpg">
                             </a>
                         </figure>
-                        <div class="content d-none d-lg-none d-md-block d-sm-block">
+                        <div class="content d-lg-none d-block ">
                             <h1>Kantipure Institute Of Technology and Management</h1>
                             <span>Affiliated with Rajarshi Janak University(RJU)</span>
                         </div>
                     </div>
-                    <button class=" openbtn d-lg-none d-block ms-5" data-side-nav-target="#myside-nav">
+                    <button class=" openbtn d-lg-none d-block md-5 ms-1" data-side-nav-target="#myside-nav">
                         <i class="fa-solid fa-bars"></i>
                     </button>
                     <div class="navigation-item-wrapper" id="myside-nav">
@@ -64,7 +61,7 @@
                                 <a class="nav-link active" href="index.php">Home</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link " href="about.php">About us</a>
+                                <a class="nav-link " href="about-us.php">About us</a>
                             </li>
                             <li class="nav-item ">
                                 <a class="nav-link " href="bcscsit.php">BCs.CSIT</a>
@@ -80,19 +77,20 @@
                                     Resources
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="page.php">Professional Training</a></li>
-                                    <li><a class="dropdown-item" href="page.php">Internship</a></li>
-                                    <li><a class="dropdown-item" href="page.php">Placement Cell</a></li>
+                                    <li><a class="dropdown-item" href="professional-training.php">Professional Training</a></li>
+                                    <li><a class="dropdown-item" href="internship.php">Internship</a></li>
+                                    <li><a class="dropdown-item" href="placement.php">Placement Cell</a></li>
                                 </ul>
-                            </li>
-                            <li class="nav-item ">
-                                <a class="nav-link " href="">News and Article</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="contact-us.php">Contact us</a>
                             </li>
                         </ul>
+                        <button type="button" class="result-button d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#applynowform">
+                            Apply Now
+                        </button>
                     </div>
+
                 </nav>
             </div>
         </div>
@@ -109,7 +107,7 @@
 
                 <form class="contact-us-message-form form-element" action="">
                     <div class="d-flex justify-content-between heading align-items-center">
-                        <div >Apply with us</div>
+                        <div>Apply with us</div>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="form-wrapper">

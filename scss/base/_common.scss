@@ -309,24 +309,24 @@ a {
   h4,
   h5,
   h6 {
-    font-weight: 600 !important;
-    margin: 20px 0px !important;
+    font-weight: 800 !important;
+    margin: 10px 0px !important;
     color: $secondary-color;
   }
   h1 {
-    font-size: 20px !important;
+    font-size: 22px !important;
     line-height: 30px !important;
   }
   h2 {
-    font-size: 18px !important;
+    font-size: 20px !important;
     line-height: 26px !important;
   }
   h3 {
-    font-size: 16px !important;
+    font-size: 18px !important;
     line-height: 24px !important;
   }
   h4 {
-    font-size: 24px !important;
+    font-size: 14px !important;
     line-height: 22px !important;
   }
   h5 {
@@ -338,13 +338,13 @@ a {
     line-height: 18px !important;
   }
   ol {
-    margin: 20px 0px 20px 18px !important;
+    margin: 10px 0px 10px 18px !important;
     list-style: decimal;
     li {
       font-weight: 500;
       padding: 5px 0px;
       font-family: "Barlow", sans-serif;
-      color: #3e3a3a;
+      color: #6D6D6D;
       display: list-item;
       a {
         color: $primary-color !important;
@@ -360,13 +360,13 @@ a {
     }
   }
   ul {
-    margin: 20px 0px 20px 18px !important;
+    margin: 10px 0px 10px 18px !important;
     list-style: disc;
     li {
       font-weight: 400;
       padding: 5px 0px;
       display: list-item;
-      color: #3e3a3a;
+      color: #6D6D6D;
       font-family: "Barlow", sans-serif;
       a {
         color: $primary-color !important;
@@ -377,7 +377,7 @@ a {
     }
   }
   blockquote {
-    margin: 40px 0px 40px 0px;
+    margin: 20px 0px 20px 0px;
     padding: 20px 30px;
     border-left: 5px solid $primary-color;
     background: #d4ddfc;

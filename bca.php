@@ -19,38 +19,120 @@
             <h1 class="main-title">Bachelor of Computer Application (BCA)</h1>
         </div>
         <div class="text-document-content">
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-                Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Donec quam felis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-                ligula eget dolor. Aenean massa. Donec quam felis. Lorem ipsum dolor sit amet, consectetuer
-                adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet,
-                consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis. Lorem ipsum
-                dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                Donec quam felis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-                ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
-                parturient montes, nascetur ridiculus mus. Donec quam felis. Lorem ipsum dolor sit amet,
-                consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Donec quam felis.
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-                Aenean massa.</p>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-                Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Donec quam felis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-                ligula eget dolor. Aenean massa. Donec quam felis. Lorem ipsum dolor sit amet, consectetuer
-                adipiscing elit. </p>
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptatem facilis ut, amet
-                doloremque repellendus.</h2>
+            <p>
+        The Bachelor in Computer Applications program at Kantipur Institute of Technology & Management is offered in affiliation with Rajarishi Janak University. This four-year eight-semester course is a combination of theoretical and practical skills required in computer application development and various other careers in the Information Technology sector. 
+
+            </p>
+            <h2>
+Eligibility
+
+            </h2>
+            <p>
+To apply for the BCA program at KITM, prospective students need to have the following qualifications:
+
+            </p>
             <ul>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nemo magnam reprehenderit
-                    reiciendis quod!</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nemo magnam reprehenderit
-                    reiciendis quod!</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nemo magnam reprehenderit
-                    reiciendis quod!</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nemo magnam reprehenderit
-                    reiciendis quod!</li>
+                <li>Completion of higher secondary education (10+2) in any stream with a minimum percentage as specified by the university.</li>
+                <li> Proficiency in English.</li>
             </ul>
+
+
+<h2>
+Admission Process
+</h2>
+<p>
+To apply for the BCA program at KITM, prospective students need to follow these steps:
+
+</p>
+<ul>
+    <li>
+    Application Form: Fill out the online application form.   </li>
+    <li>Entrance Exam: Appear for the university’s entrance exam.   </li>
+    <li>Interview: Attend a personal interview, if required.   </li>
+    <li>Merit List: Admission is granted based on the merit list, which considers the entrance exam score and interview performance.   </li>
+    <li>Enrollment: Complete the enrollment process by submitting the required documents and paying the first installment of the fee.
+    </li>
+</ul>
+
+<h2>
+Course Structure
+</h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>S.N.</th>
+            <th>Courses</th>
+            <th>No. of Courses</th>
+            <th>Credit Hours</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Computer Application </td>
+            <td>24</td>
+            <td>73</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Language Courses </td>
+            <td>3</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Mathematics and Statistics </td>
+            <td>3</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Social Sciences & Management</td>
+            <td>4</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Electives</td>
+            <td>4</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Projects</td>
+            <td>3</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Internship</td>
+            <td>1</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td colspan="2"><strong>Total</strong></td>
+            <td>42</td>
+            <td>128</td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
     </div>
 </section>

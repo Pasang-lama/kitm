@@ -13,11 +13,7 @@
                 <div class="main-title">Earn While You Learn change</div>
             </div>
             <div class="text-document-content">
-                <p>Lorem ipsum dolor sit amet consectetur. Ornare leo rhoncus massa at nibh nisl interdum. Massa
-                    ante qu Lorem ipsum dolor sit amet consectetur. Ornare leo rhoncus massa at nibh nisl
-                    interdum.
-                    Massa ante quis ac nunc at lobortis natoque eu nullam. Ultrices laoreet nunc nisl nunc Lorem
-                    ipsum dolor sit amet consecteturc </p>
+                <p>At KITM, we encourage our students to Earn While You Learn. With our industry tie-ups, internship programs, and placement cells, students can begin earning as professionals from as early as the second semester of their program. </p>
             </div>
             <div class="custom-button mt-5">
                 <a href="about-us.php">Learn more</a>
@@ -41,14 +37,9 @@
                     </h1>
                 </div>
                 <div class="text-document-content">
-                    <p>Lorem ipsum dolor sit amet consectetur. Ornare leo rhoncus massa at nibh nisl interdum. Massa
-                        ante qu Lorem ipsum dolor sit amet consectetur. Ornare leo rhoncus massa at nibh nisl interdum.
-                        Massa ante quis ac nunc at lobortis natoque eu nullam. Ultrices laoreet nunc nisl nunc Lorem
-                        ipsum dolor sit amet consecteturc </p>
-                    <p>Lorem ipsum dolor sit amet consectetur. Ornare leo rhoncus massa at nibh nisl interdum. Massa
-                        ante qu Lorem ipsum dolor sit amet consectetur. Ornare leo rhoncus massa at nibh nisl interdum.
-                        Massa ante quis ac nunc at lobortis natoque eu nullam. Ultrices laoreet nunc nisl nunc Lorem
-                        ipsum dolor sit amet consecteturc</p>
+                    <p>
+                        Founded with the requirements of the current world of Business & Information Technology industries in mind, the Kantipur Institute of Technology & Management is an establishment that focuses entirely on providing high-quality academic and vocational education to create high-value professionals. KITM is an institution whose founding members come from successful ventures and, hence are perfectly aware of what the industry needs in the years to come.
+                    </p>
                 </div>
                 <div class="custom-button mt-5">
                     <a href="about-us.php">Learn more</a>
@@ -68,16 +59,13 @@
                 <div class="section-heading mb-0 white-color align-left">
                     <h2 class="main-title">Our Programs: Affiliated with Rajarshi Janak University(RJU)</h2>
                 </div>
-                <div class="text-document-content">
-                    <p>Lorem ipsum dolor sit amet consectetur. Ornare leo rhoncus massa at nibh nisl interdum. Massa
-                        ante qu Lorem ipsum dolor sit amet consectetur. Ornare leo rhoncus massa at nibh nisl interdum.
-                        Massa ante quis ac nunc at lobortis natoque eu nullam. Ultrices laoreet nunc nisl nunc Lorem
-                        ipsum dolor sit amet consecteturc </p>
+                <div class="text-document-content mt-4">
+                    <p>In affiliation with Rajarahi Janak University, Kantipur Institute of Technology and Management offers programs specializing in Information Technology. Come join our BCA or BSc CSIT program today!</p>
                 </div>
             </div>
             <div class="col-lg-8 col-md-12">
                 <div class="d-grid-1-1">
-                    <a href="" class="program-card">
+                    <a href="bcscsit.php" class="program-card">
                         <figure>
                             <img src="images/computing.png" alt="">
                         </figure>
@@ -86,7 +74,7 @@
                             <p>BSc.CSIT - Rajarshi Janak University(RJU)</p>
                         </div>
                     </a>
-                    <a href="" class="program-card">
+                    <a href="bca.php" class="program-card">
                         <figure>
                             <img src="images/ai.png" alt="">
                         </figure>
@@ -106,44 +94,66 @@
         <div class="col-lg-6 col-md-12">
             <div class="section-heading align-left">
                 <span>SCHOLARSHIP opportunities</span>
-                <h2 class="main-title">Unlock Your Future: Explore Top Scholarship Opportunities!</h2>
+                <h2 class="main-title"> 100% Scholarship Opportunity at KITM for BSc CSIT and BCA !</h2>
             </div>
             <div class="text-document-content ">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quia minima deleniti vero ducimus suscipit ipsam libero quis. Enim facere aliquam voluptatibus rem voluptate eos vero ipsam nostrum, atque quas libero rerum quositatibus libero hic sunt eum eius mollitia sint eligendi cumque, quo aut repellendus distinctio? Natus nemo, qui eos repudiandae quaerat corrupti suscipit deserunt? Necessitatibus, voluptates consequuntur?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quia minima deleniti vero ducimus suscipit ipsam libero quis. Enim facere aliquam voluptatibus rem voluptate eos vero ipsam nostrum, atque quas libero rerum quositatibus libero hic sunt eum eius mollitia sint eligendi cumque, quo aut repellendus distinctio? Natus nemo, qui eos repudiandae quaerat corrupti suscipit deserunt? Necessitatibus, voluptates consequuntur?</p>
+
+                <p>
+                    Are you passionate about IT and ready to make a difference in the world of technology? Do you believe in thinking out of the box and pushing the boundaries of innovation?
+                    Here’s your chance! KITM, in collaboration with our software company, is offering FULL SCHOLARSHIPS to deserving and driven candidates!
+                </p>
+                <h3>Who Should Apply?</h3>
+                <p>
+                    Students with a vision to revolutionize the IT industry,
+                    Creative thinkers with problem-solving abilities,
+                    Individuals ready to challenge themselves and grow with the latest technology
+                    with industry-focused programs in BSc CSIT and BCA, you’ll get:
+                </p>
+                <ul>
+                    <li>In-house internships</li>
+                    <li>Job opportunities while you study</li>
+                    <li>Training in cutting-edge technologies</li>
+                    <li>Mentorship from experienced industry professionals</li>
+                </ul>
+                <p>
+                    Don’t Miss Out! This is a once-in-a-lifetime opportunity to gain quality education without financial barriers!
+                </p>
                 <div class="custom-button mt-5">
-                    <a href="#">Apply Now</a>
+                <button type="button"  data-bs-toggle="modal" data-bs-target="#applynowform">
+                    Send Inquiry
+                </button>
                 </div>
+              
             </div>
         </div>
         <div class="col-lg-6 col-md-12">
             <figure class="eprabidhitheme-decor">
-                <img src="images/img-12.png" alt="">
+                <img src="images/kitm_scholarship.jpg" alt="sholarships">
             </figure>
         </div>
     </div>
-
-
 </section>
-
 <section class="contact-info custom-margin container d-grid-1-1">
     <div class="contact-items">
         <i class="fa-solid fa-mobile-button"></i>
         <div class="details">
             <strong>Call now for</strong>
-            <p>free consultation : <a href="tell:98511 27611">98511 27611</a></p>
+            <p>Free consultation :
+                <a href="tel:976-3690075">976-3690075</a>,
+                <a href="tel:9849839763">9849839763</a>
+            </p>
         </div>
     </div>
     <div class="contact-items">
         <i class="fa-solid fa-mobile-button"></i>
         <div class="details">
             <strong>Mail now for</strong>
-            <p> free consultation : <a href="maito: info@eprabidhi.com">info@eprabidhi.com</a></p>
+            <p> Free consultation : <a href="maito: kantipurinstituteoftechnologya@gmail.com">kantipurinstituteoftechnologya@gmail.com</a></p>
         </div>
     </div>
 </section>
 
-<section class="video-section custom-margin custom-padding" style="background-image:url('images/img-25.jpg')">
+<section class="video-section custom-margin custom-padding" style="background-image:url('images/videobackground.jpg')">
     <div class="container ">
         <div class="video-wrapper center-width">
             <div class="section-heading white-color">
@@ -151,20 +161,17 @@
                 <h2 class="main-title">We look forward to introducing you to our college.</h2>
             </div>
             <div class="text-document-content">
-                <p>Lorem ipsum dolor sit amet consectetur. Ornare leo rhoncus massa at nibh nisl interdum. Massa
-                    ante qu Lorem ipsum dolor sit amet consectetur. Ornare leo rhoncus massa at nibh nisl interdum.
-                    Massa ante quis ac nunc at lobortis natoque eu nullam. Ultrices laoreet nunc nisl nunc Lorem
-                    ipsum dolor sit amet consecteturc </p>
+                <p>Sign up today for a college visit and get acquainted with the faculty!</p>
             </div>
             <div class="button-wrapper  mt-5">
                 <div class="custom-button">
-                    <button type="button" class="result-button" data-bs-toggle="modal" data-bs-target="#applynowform">
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#applynowform">
                         Get Admissions
                     </button>
                 </div>
-                <div class="custom-button virtual-tour-button">
-                    <a class="popup-youtube" href="https://www.youtube.com/watch?v=WTk7EsJ60Vk">Virtual Tour</a>
-                </div>
+                <!-- <div class="custom-button virtual-tour-button">
+                    <a class="popup-youtube" href="">Virtual Tour</a>
+                </div> -->
             </div>
         </div>
     </div>
@@ -177,12 +184,7 @@
                 <h2 class="main-title">Our Industry Association</h2>
             </div>
             <div class="text-document-content text-center">
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
-                    massa.
-                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-                    s. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-                    ligula
-                    eget dolor. Aenean massa. </p>
+                <p>We are proud to introduce you to our partners. With signed MoUs and partnerships, they are here to help you succeed with internship programs, field visits, seminars, and placement opportunities. </p>
             </div>
             <div class="row gy-4 justify-content-center mt-5">
                 <div class="col-lg-2 col-md-3 col-sm-4 col-6">
@@ -234,24 +236,6 @@
         </div>
     </div>
 </section>
-<!-- popup module  -->
-<!-- 
-<div class="modal fade initial-popup" id="popupModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <span></span>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="popupModalCloseBtn"><i class="fa-solid fa-xmark"></i></button>
-            </div>
-            <div class="modal-body">
-                <a href="#">
-                    <figure>
-                        <img src="images/popupimages.jpg">
-                    </figure>
-                </a>
-            </div>
-        </div>
-    </div>
-</div> -->
+
 
 <?php include("includes/footer.php"); ?>
