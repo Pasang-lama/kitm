@@ -48,6 +48,49 @@
 </footer>
 </body>
 
+<!-- validation for Apply Now btn -->
+<script>
+document.querySelector('.apply-message-form').addEventListener('submit', function(event) {
+    let valid = true;
+    const name = document.getElementById('name').value;
+    const number = document.getElementById('number').value;
+    const email = document.getElementById('email').value;
+    const program = document.getElementById('program').value;
+    const message = document.getElementById('message').value;
+
+    // Clear previous error messages
+    document.getElementById('name-error').textContent = '';
+    document.getElementById('number-error').textContent = '';
+    document.getElementById('email-error').textContent = '';
+    document.getElementById('program-error').textContent = '';
+    document.getElementById('message-error').textContent = '';
+
+    if (!name) {
+        valid = false;
+        document.getElementById('name-error').textContent = 'Please enter your name.';
+    }
+    if (!number) {
+        valid = false;
+        document.getElementById('number-error').textContent = 'Please enter your phone number.';
+    }
+    if (!email) {
+        valid = false;
+        document.getElementById('email-error').textContent = 'Please enter your email address.';
+    }
+    if (program === "0") {
+        valid = false;
+        document.getElementById('program-error').textContent = 'Please select a program.';
+    }
+    if (!message) {
+        valid = false;
+        document.getElementById('message-error').textContent = 'Please enter a message.';
+    }
+
+    if (!valid) {
+        event.preventDefault(); // Prevent form submission
+    }
+});
+</script>
 
 
 <!-- jquery  -->

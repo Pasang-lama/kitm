@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+<?php
+require_once "dbconfig.php";
+session_start();
+
+?><!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -88,6 +92,13 @@
                         </ul>
                         <button type="button" class="result-button d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#applynowform">
                             Apply Now
+                            <?php
+                            if (isset($_SESSION['success'])){
+                                echo $_SESSION['success'];
+                                unset($_SESSION['success']);
+                            }
+
+                            ?>
                         </button>
                     </div>
 
@@ -105,41 +116,46 @@
             <div class="modal-content">
 
 
-                <form class="contact-us-message-form form-element" action="">
-                    <div class="d-flex justify-content-between heading align-items-center">
-                        <div>Apply with us</div>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="form-wrapper">
-                        <div class="form-group">
-                            <label for="name">Full Name*</label>
-                            <input type="text" name="name" id="name" placeholder="Enter a full name.">
-                        </div>
-                        <div class="form-group">
-                            <label for="number">Phone Number*</label>
-                            <input type="text" name="number" id="number" placeholder="Enter a phone number.">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email Address*</label>
-                            <input type="text" name="email" id="email" placeholder="Enter a email address.">
-                        </div>
-                        <div class="form-group">
-                            <label for="program">Phone Number*</label>
-                            <select name="program" id="program">
-                                <option value="0" selected disabled>Select a program</option>
-                                <option value="Bcs.CSIT">BSc. Computer Science and Information Technology (BSc.CSIT)</option>
-                                <option value="BCA">Bachelor of Computer Application (BCA)</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message*</label>
-                            <textarea name="message" id="message" placeholder="Enter a message." cols="30" rows="4"></textarea>
-                        </div>
-                        <div class="custom-button">
-                            <button class="secondary-btn">Send Message</button>
-                        </div>
-                    </div>
-                </form>
+            <form class="contact-us-message-form apply-message-form form-element" action="<?=BASE?>posthandler/ApplyInsert.php" method="POST">
+    <div class="d-flex justify-content-between heading align-items-center">
+        <div>Apply with us</div>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="form-wrapper">
+        <div class="form-group">
+            <label for="name">Full Name*</label>
+            <input type="text" name="name" id="name" placeholder="Enter a full name.">
+            <span class="error-message" id="name-error"></span>
+        </div>
+        <div class="form-group">
+            <label for="number">Phone Number*</label>
+            <input type="text" name="number" id="number" placeholder="Enter a phone number.">
+            <span class="error-message" id="number-error"></span>
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address*</label>
+            <input type="text" name="email" id="email" placeholder="Enter a email address.">
+            <span class="error-message" id="email-error"></span>
+        </div>
+        <div class="form-group">
+            <label for="program">Program*</label>
+            <select name="program" id="program">
+                <option value="0" selected disabled>Select a program</option>
+                <option value="Bcs.CSIT">BSc. Computer Science and Information Technology (BSc.CSIT)</option>
+                <option value="BCA">Bachelor of Computer Application (BCA)</option>
+            </select>
+            <span class="error-message" id="program-error"></span>
+        </div>
+        <div class="form-group">
+            <label for="message">Message*</label>
+            <textarea name="message" id="message" placeholder="Enter a message." cols="30" rows="4"></textarea>
+            <span class="error-message" id="message-error"></span>
+        </div>
+        <div class="custom-button">
+            <button class="secondary-btn" type="submit">Send Message</button>
+        </div>
+    </div>
+</form>
             </div>
         </div>
     </div>
