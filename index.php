@@ -16,7 +16,7 @@
                 <p>At KITM, we encourage our students to Earn While You Learn. With our industry tie-ups, internship programs, and placement cells, students can begin earning as professionals from as early as the second semester of their program. </p>
             </div>
             <div class="custom-button mt-5">
-                <a href="about-us.php">Learn more</a>
+                <a href="about">Learn more</a>
             </div>
         </div>
     </div>
@@ -42,7 +42,7 @@
                     </p>
                 </div>
                 <div class="custom-button mt-5">
-                    <a href="about-us.php">Learn more</a>
+                    <a href="about">Learn more</a>
                 </div>
             </div>
 
@@ -65,7 +65,7 @@
             </div>
             <div class="col-lg-8 col-md-12">
                 <div class="d-grid-1-1">
-                    <a href="bcscsit.php" class="program-card">
+                    <a href="bcscsit" class="program-card">
                         <figure>
                             <img src="images/computing.png" alt="">
                         </figure>
@@ -74,7 +74,7 @@
                             <p>BSc.CSIT - Rajarshi Janak University(RJU)</p>
                         </div>
                     </a>
-                    <a href="bca.php" class="program-card">
+                    <a href="bca" class="program-card">
                         <figure>
                             <img src="images/ai.png" alt="">
                         </figure>

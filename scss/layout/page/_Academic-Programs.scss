@@ -1,27 +1,33 @@
 .Academic-Programs {
   background: $secondary-color;
+
   .text-document-content {
     p {
-      color: #fff;
+      color: #d6d6d6;
     }
   }
   .Academic-Programs-card-wrapper {
     display: flex;
     width: 100%;
+
     .card-wrapper {
       flex: 1;
       border-right: 1px solid white;
+
       &:last-child {
         border-right: none;
       }
+
       .card-item {
         @include background-property;
         height: 450px;
         width: 100%;
         position: relative;
+
         &:last-child {
           border-right: none;
         }
+
         &::after {
           content: "";
           position: absolute;
@@ -33,6 +39,7 @@
           opacity: 0.3;
           z-index: 1;
         }
+
         .Academic-Programs-tittle {
           color: #fff;
           text-align: center;
@@ -49,6 +56,7 @@
           transition: all 300ms;
         }
       }
+
       &:hover {
         .card-item {
           .Academic-Programs-tittle {
@@ -66,7 +74,8 @@
 .program-card {
   background-color: #E37A47;
   border-radius: 5px;
-overflow: hidden;
+  overflow: hidden;
+
   &:nth-child(3n) {
     background-color: #59A584;
 
@@ -119,6 +128,7 @@ overflow: hidden;
 
   .card-details {
     padding: 20px 10px;
+
     .title {
       color: white;
       font-weight: 600;
@@ -143,4 +153,3 @@ overflow: hidden;
     }
   }
 }
-

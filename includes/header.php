@@ -42,7 +42,7 @@
                 <nav>
                     <div class="main-logo d-flex align-items-center">
                         <figure>
-                            <a class="navbar-brand" href="index.php">
+                            <a class="navbar-brand" href="/">
                                 <img src="images/new-logo.jpg">
                             </a>
                         </figure>
@@ -58,32 +58,32 @@
                         <button class="ms-auto mb-3 d-block btn btn-danger d-lg-none closebtn" data-side-nav-target="#myside-nav"><i class="fa-solid fa-xmark"></i></button>
                         <ul class="navbar-nav">
                             <li class="nav-item ">
-                                <a class="nav-link active" href="index.php">Home</a>
+                                <a class="nav-link active" href="/">Home</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link " href="about-us.php">About us</a>
+                                <a class="nav-link " href="about">About us</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link " href="bcscsit.php">BCs.CSIT</a>
+                                <a class="nav-link " href="bcscsit">BCs.CSIT</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link " href="bca.php">BCA</a>
+                                <a class="nav-link " href="bca">BCA</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link " href="scholarship.php">Scholarship</a>
+                                <a class="nav-link " href="scholarship">Scholarship</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Resources
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="professional-training.php">Professional Training</a></li>
-                                    <li><a class="dropdown-item" href="internship.php">Internship</a></li>
-                                    <li><a class="dropdown-item" href="placement.php">Placement Cell</a></li>
+                                    <li><a class="dropdown-item" href="professional-training">Professional Training</a></li>
+                                    <li><a class="dropdown-item" href="internship">Internship</a></li>
+                                    <li><a class="dropdown-item" href="placement">Placement Cell</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact-us.php">Contact us</a>
+                                <a class="nav-link" href="contact">Contact us</a>
                             </li>
                         </ul>
                         <button type="button" class="result-button d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#applynowform">

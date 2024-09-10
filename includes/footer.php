@@ -17,27 +17,27 @@
             <div class="col-lg-3 col-md-6 col-sm-12 ps-lg-5 ">
                 <div class="column-heading">Our Resources</div>
                 <ul>
-                    <li><a href="professional-training.php">Professional Training</a></li>
-                    <li><a href="internship.php">Internship</a></li>
-                    <li><a href="placement.php">Placement Cell</a></li>
+                    <li><a href="professional-training">Professional Training</a></li>
+                    <li><a href="internship">Internship</a></li>
+                    <li><a href="placement">Placement Cell</a></li>
                 </ul>
             </div>
             <div class="col-lg-2 col-md-6 col-sm-12">
                 <div class="column-heading">Useful Links</div>
                 <ul>
-                    <li><a href="about-us.php">About us</a></li>
-                    <li><a href="contact-us.php">Online Apply</a></li>
-                    <li><a href="">Notices</a></li>
+                    <li><a href="about">About us</a></li>
+                    <li><a href="contact">Online Apply</a></li>
+                    <!-- <li><a href="">Notices</a></li> -->
                     <!-- <li><a href="">News and Articles</a></li> -->
-                    <!-- <li><a href="vaccancy.php">Vaccancy</a></li> -->
-                    <li><a href="contact-us.php">Contact us</a></li>
+                    <!-- <li><a href="vaccancy">Vaccancy</a></li> -->
+                    <li><a href="contact">Contact us</a></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12">
                 <div class="column-heading">Our Programs</div>
                 <ul>
-                    <li><a href="bca.php">Bachelor of Computer Application (BCA)</a></li>
-                    <li><a href="bcscsit.php">BSc Computer Science and Information Technology (BSc.CSIT)</a></li>
+                    <li><a href="bca">Bachelor of Computer Application (BCA)</a></li>
+                    <li><a href="bcscsit">BSc Computer Science and Information Technology (BSc.CSIT)</a></li>
                 </ul>
             </div>
         </div>

@@ -1,0 +1,17 @@
+Options -Indexes
+
+# Deny access to the folder itself
+RewriteEngine On
+RewriteRule ^restricted-folder/?$ - [R=403,L]
+
+# Remove .php or other extensions from URL
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L,QSA]
+
+# Optional: Remove .html or other extensions
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [L,QSA]
+
+
