@@ -8,8 +8,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $data = $_POST;
     $insertPrama= ["name"=>$_POST['name'],"number"=>$_POST['number'], "email"=>$_POST['email'],"program"=>$_POST['program'],"message"=>$_POST['message']];
     if($db->Insert($tableName,$insertPrama)){
-        $_SESSION['success']="Success";
+        $_SESSION['success-apply']="Application Submitted! Thank you for applying with us. We will review your information and contact you with the next steps soon.";
     }
-    header("Location: " . BASE );
+    header("Location: " . BASE  );
     exit();
 }

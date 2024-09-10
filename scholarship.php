@@ -49,7 +49,7 @@
             </div>
             <div class="col-lg-6 col-md-12">
                 <figure class="eprabidhitheme-decor">
-                    <img src="images/kitm_scholarship.jpg" alt="sholarships">
+                    <img src="images/kitm_scholarship.jpg" alt="100% Scholarship Opportunity at KITM for BSc CSIT and BCA !">
                 </figure>
             </div>
         </div>

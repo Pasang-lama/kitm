@@ -3,7 +3,13 @@
 <section class="banner">
     <div class="banner-slider">
         <figure>
-            <img src="images/img-1.jpg" alt="">
+            <img src="images/bcsit.jpg" alt="Kantipure Institute of Information and Technology">
+        </figure>
+        <figure>
+            <img src="images/kitm-banner.jpg" alt="Kantipure Institute of Information and Technology">
+        </figure>
+        <figure>
+            <img src="images/bca.jpg" alt="Kantipure Institute of Information and Technology">
         </figure>
     </div>
     <div class="hero-banner-content">
@@ -27,7 +33,7 @@
         <div class="row gy-4">
             <div class="col-lg-6 col-md-12 pe-5 order-2 order-lg-1">
                 <figure>
-                    <img src="images/computing.png" alt="">
+                    <img src="images/about.jpg" alt="Kantipure Institute of Information and Technology">
                 </figure>
             </div>
             <div class="col-lg-6 col-md-12 order-1 order-lg-2">
@@ -49,7 +55,7 @@
         </div>
     </div>
     <figure class="side-decor">
-        <img src="images/graduation.png" alt="">
+        <img src="images/graduation.png" alt="side decor">
     </figure>
 </section>
 <section class="Academic-Programs custom-padding  custom-margin">
@@ -67,7 +73,7 @@
                 <div class="d-grid-1-1">
                     <a href="bcscsit" class="program-card">
                         <figure>
-                            <img src="images/computing.png" alt="">
+                            <img src="images/bcsit.jpg" alt="BSc Computer Science and Information Technology">
                         </figure>
                         <div class="card-details">
                             <h3 class="title">BSc Computer Science and Information Technology</h3>
@@ -76,7 +82,7 @@
                     </a>
                     <a href="bca" class="program-card">
                         <figure>
-                            <img src="images/ai.png" alt="">
+                            <img src="images/bca.jpg" alt="Bachelor of Computer Application">
                         </figure>
                         <div class="card-details">
                             <h3 class="title">Bachelor of Computer Application</h3>
@@ -128,7 +134,7 @@
         </div>
         <div class="col-lg-6 col-md-12">
             <figure class="eprabidhitheme-decor">
-                <img src="images/kitm_scholarship.jpg" alt="sholarships">
+                <img src="images/kitm_scholarship.jpg" alt="100% Scholarship Opportunity at KITM for BSc CSIT and BCA">
             </figure>
         </div>
     </div>
@@ -200,7 +206,7 @@
                     <div class="partners-card">
                         <figure>
                             <a href="organizational-partner.php">
-                                <img src="images/ebperals.webp" alt="">
+                                <img src="images/ebperals.webp" alt=" EB Pearls">
                             </a>
                         </figure>
                     </div>
@@ -209,7 +215,7 @@
                     <div class="partners-card">
                         <figure>
                             <a href="organizational-partner.php">
-                                <img src="images/codehimalaya.webp" alt="">
+                                <img src="images/codehimalaya.webp" alt="Code Himalaya">
                             </a>
                         </figure>
                     </div>
@@ -218,7 +224,7 @@
                     <div class="partners-card">
                         <figure>
                             <a href="organizational-partner.php">
-                                <img src="images/eprabidhi.webp" alt="">
+                                <img src="images/eprabidhi.webp" alt="E-prabidhi">
                             </a>
                         </figure>
                     </div>
@@ -227,7 +233,7 @@
                     <div class="partners-card">
                         <figure>
                             <a href="organizational-partner.php">
-                                <img src="images/itonics.webp" alt="">
+                                <img src="images/itonics.webp" alt="Itonics">
                             </a>
                         </figure>
                     </div>

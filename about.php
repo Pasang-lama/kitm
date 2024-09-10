@@ -34,7 +34,7 @@
             </div>
             <div class="col-lg-6 col-md-12 pe-5">
                 <figure>
-                    <img src="images/computing.png" alt="">
+                    <img src="images/about.jpg" alt="Kantipure Institute of Techmology and Management">
                 </figure>
             </div>
             <div class="text-document-content">
@@ -50,7 +50,7 @@ In addition to that, KITM also believes in making education available to everyon
         </div>
     </div>
     <figure class="side-decor">
-        <img src="images/graduation.png" alt="">
+        <img src="images/graduation.png" alt="side decor">
     </figure>
 </section>
 <section class="contact-info custom-margin container d-grid-1-1">
@@ -113,52 +113,52 @@ In addition to that, KITM also believes in making education available to everyon
 
         </div>
         <div class="row gy-4  mt-5">
-            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-                <div class="partners-card">
-                    <figure>
-                        <a href="organizational-partner.php">
-                            <img src="images/ittrainingnepal.webp" alt="">
-                        </a>
-                    </figure>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="partners-card">
+                        <figure>
+                            <a href="organizational-partner.php">
+                                <img src="images/ittrainingnepal.webp" alt="">
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="partners-card">
+                        <figure>
+                            <a href="organizational-partner.php">
+                                <img src="images/ebperals.webp" alt=" EB Pearls">
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="partners-card">
+                        <figure>
+                            <a href="organizational-partner.php">
+                                <img src="images/codehimalaya.webp" alt="Code Himalaya">
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="partners-card">
+                        <figure>
+                            <a href="organizational-partner.php">
+                                <img src="images/eprabidhi.webp" alt="E-prabidhi">
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="partners-card">
+                        <figure>
+                            <a href="organizational-partner.php">
+                                <img src="images/itonics.webp" alt="Itonics">
+                            </a>
+                        </figure>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-                <div class="partners-card">
-                    <figure>
-                        <a href="organizational-partner.php">
-                            <img src="images/ebperals.webp" alt="">
-                        </a>
-                    </figure>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-                <div class="partners-card">
-                    <figure>
-                        <a href="organizational-partner.php">
-                            <img src="images/codehimalaya.webp" alt="">
-                        </a>
-                    </figure>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-                <div class="partners-card">
-                    <figure>
-                        <a href="organizational-partner.php">
-                            <img src="images/eprabidhi.webp" alt="">
-                        </a>
-                    </figure>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-                <div class="partners-card">
-                    <figure>
-                        <a href="organizational-partner.php">
-                            <img src="images/itonics.webp" alt="">
-                        </a>
-                    </figure>
-                </div>
-            </div>
-        </div>
     </div>
 </section>
 <?php include("includes/footer.php"); ?>

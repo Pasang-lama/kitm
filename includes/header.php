@@ -2,7 +2,8 @@
 require_once "dbconfig.php";
 session_start();
 
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -31,9 +32,9 @@ session_start();
                         <ul>
                             <li><i class="fa-solid fa-location-dot"></i> <span class="wrapper">Putalisadak-28 (Kamaladi Mod), Kathmandu</span></li>
                             <li><i class="fa-solid fa-phone"></i><span class="wrapper">
-                            <a href="tel:976-3690075">976-3690075</a>, 
-                            <a href="tel:9849839763">9849839763</a>
-                                   </span></li>
+                                    <a href="tel:976-3690075">976-3690075</a>,
+                                    <a href="tel:9849839763">9849839763</a>
+                                </span></li>
                             <li><i class="fa-solid fa-envelope"></i><span class="wrapper"><a href="mailto:kantipurinstituteoftechnologya@gmail.com">kantipurinstituteoftechnologya@gmail.com</a></span></li>
                         </ul>
                     </div>
@@ -47,7 +48,7 @@ session_start();
                     <div class="main-logo d-flex align-items-center">
                         <figure>
                             <a class="navbar-brand" href="/">
-                                <img src="images/new-logo.jpg">
+                                <img src="images/new-logo.jpg" alt="Kantipure Institute of Techmology and Management">
                             </a>
                         </figure>
                         <div class="content d-lg-none d-block ">
@@ -92,13 +93,7 @@ session_start();
                         </ul>
                         <button type="button" class="result-button d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#applynowform">
                             Apply Now
-                            <?php
-                            if (isset($_SESSION['success'])){
-                                echo $_SESSION['success'];
-                                unset($_SESSION['success']);
-                            }
 
-                            ?>
                         </button>
                     </div>
 
@@ -116,46 +111,60 @@ session_start();
             <div class="modal-content">
 
 
-            <form class="contact-us-message-form apply-message-form form-element" action="<?=BASE?>posthandler/ApplyInsert.php" method="POST">
-    <div class="d-flex justify-content-between heading align-items-center">
-        <div>Apply with us</div>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-    </div>
-    <div class="form-wrapper">
-        <div class="form-group">
-            <label for="name">Full Name*</label>
-            <input type="text" name="name" id="name" placeholder="Enter a full name.">
-            <span class="error-message" id="name-error"></span>
-        </div>
-        <div class="form-group">
-            <label for="number">Phone Number*</label>
-            <input type="text" name="number" id="number" placeholder="Enter a phone number.">
-            <span class="error-message" id="number-error"></span>
-        </div>
-        <div class="form-group">
-            <label for="email">Email Address*</label>
-            <input type="text" name="email" id="email" placeholder="Enter a email address.">
-            <span class="error-message" id="email-error"></span>
-        </div>
-        <div class="form-group">
-            <label for="program">Program*</label>
-            <select name="program" id="program">
-                <option value="0" selected disabled>Select a program</option>
-                <option value="Bcs.CSIT">BSc. Computer Science and Information Technology (BSc.CSIT)</option>
-                <option value="BCA">Bachelor of Computer Application (BCA)</option>
-            </select>
-            <span class="error-message" id="program-error"></span>
-        </div>
-        <div class="form-group">
-            <label for="message">Message*</label>
-            <textarea name="message" id="message" placeholder="Enter a message." cols="30" rows="4"></textarea>
-            <span class="error-message" id="message-error"></span>
-        </div>
-        <div class="custom-button">
-            <button class="secondary-btn" type="submit">Send Message</button>
-        </div>
-    </div>
-</form>
+                <form class="contact-us-message-form apply-message-form form-element" action="<?= BASE ?>posthandler/ApplyInsert.php" method="POST">
+                    <div class="d-flex justify-content-between heading align-items-center">
+                        <div>Apply with us</div>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="form-wrapper">
+                        <div class="form-group">
+                            <label for="name">Full Name*</label>
+                            <input type="text" name="name" id="name" placeholder="Enter a full name.">
+                            <span class="error-message" id="name-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="number">Phone Number*</label>
+                            <input type="text" name="number" id="number" placeholder="Enter a phone number.">
+                            <span class="error-message" id="number-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address*</label>
+                            <input type="text" name="email" id="email" placeholder="Enter a email address.">
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="program">Program*</label>
+                            <select name="program" id="program">
+                                <option value="0" selected disabled>Select a program</option>
+                                <option value="Bcs.CSIT">BSc. Computer Science and Information Technology (BSc.CSIT)</option>
+                                <option value="BCA">Bachelor of Computer Application (BCA)</option>
+                            </select>
+                            <span class="error-message" id="program-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message*</label>
+                            <textarea name="message" id="message" placeholder="Enter a message." cols="30" rows="4"></textarea>
+                            <span class="error-message" id="message-error"></span>
+                        </div>
+                        <div class="custom-button">
+                            <button class="secondary-btn" type="submit">Send Message</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
+
+
+    <?php
+    if (isset($_SESSION['success-apply'])) {   ?>
+        <div class="container">
+            <div class="alert alert-success" role="alert">
+                <?= $_SESSION['success-apply'] ?>
+            </div>
+        </div>
+    <?php
+        unset($_SESSION['success-apply']);
+    }
+
+    ?>

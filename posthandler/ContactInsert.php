@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $insertPrama= ["name"=>$_POST['name'],"number"=>$_POST['number'], "email"=>$_POST['email'],"message"=>$_POST['message']];
     // print_r($insertPrama);
     if($db->Insert($tableName,$insertPrama)){
-        $_SESSION['success']="Success";
+        $_SESSION['success-contact']="Success! Thank you for reaching out. Your message has been successfully sent.";
     }
     header("Location: " . BASE ."contact" );
     exit();
